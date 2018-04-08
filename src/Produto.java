@@ -1,12 +1,20 @@
 
 public class Produto {
-	private int codigo;
+	private int codigoProduto;
+	public int getCodigoProduto() {
+		return codigoProduto;
+	}
+
+	public void setCodigoProduto(int codigoProduto) {
+		this.codigoProduto = codigoProduto;
+	}
+
 	private String descricao;
 	private double preco;
 
 	public Produto(int codigo, String descricao, double preco) {
 		super();
-		this.codigo = codigo;
+		this.codigoProduto = codigo;
 		this.descricao = descricao;
 		this.preco = preco;
 	}
@@ -16,7 +24,7 @@ public class Produto {
 	}
 	
 	public void  setDescontoProduto() {
-		this.preco = this.preco * 0.1;
+		this.preco = this.preco * 0.9;
 	}
 
 }

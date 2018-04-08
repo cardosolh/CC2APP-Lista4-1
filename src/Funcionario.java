@@ -1,13 +1,13 @@
 
 public class Funcionario {
-	private int codigo;
+	private int codigoFuncionario;
 	private String nome;
 	private double salario;
 	private int countbonus;
 
 	public Funcionario(int codigo, String nome, double salario) {
 		super();
-		this.codigo = codigo;
+		this.codigoFuncionario = codigo;
 		this.nome = nome;
 		this.salario = salario;
 		this.countbonus = 0;
