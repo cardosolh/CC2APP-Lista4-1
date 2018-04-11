@@ -1,5 +1,8 @@
 package Questao12;
 
-public class Veiculo {
+public abstract class Veiculo {
+	protected double velocidade;
+	abstract void aumentarVelocidade();
+	abstract void diminuirVelocidade();
 
 }
